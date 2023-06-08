@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-rctp
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads-stage/ysubrama-tenant/my-app/devfile-sample-rctp@sha256:c603a7264a2b993586619724580d9306adce032fdc9095ab9b732a671ad6c80c
+        name: my-nodejs
+        resources: {}
+status: {}
