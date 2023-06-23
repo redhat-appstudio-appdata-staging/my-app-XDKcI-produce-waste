@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: devfile-sample-xktr
     app.kubernetes.io/part-of: my-app
-  name: devfile-sample-xktrxl0k
+  name: devfile-sample-xktrzzsl
 spec:
   path: /
   port:
