@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-xktr
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads-stage/ysubrama-tenant/my-app/devfile-sample-xktr@sha256:8b68dd63564269531a154afbf93c0e4ba563ca5c3859afe9dfb2aaf033bce284
+      - image: quay.io/redhat-user-workloads-stage/ysubrama-tenant/my-app/devfile-sample-xktr@sha256:de12842ebaf92fb9f635d453e32eb45cc4045c54dddf3d2bb94c32e8ed52d6b9
         name: my-nodejs
         ports:
         - containerPort: 3001
