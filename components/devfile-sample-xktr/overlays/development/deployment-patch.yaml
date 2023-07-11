@@ -4,7 +4,6 @@ metadata:
   creationTimestamp: null
   name: devfile-sample-xktr
 spec:
-  replicas: 1
   selector: {}
   strategy: {}
   template:
@@ -12,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads-stage/ysubrama-tenant/my-app/devfile-sample-xktr@sha256:6636dcfa3e6597a9c16a249938d4d341938a654aaa434aa166e3a5c04b4f6b3c
+      - image: quay.io/redhat-user-workloads-stage/ysubrama-tenant/my-app/devfile-sample-xktr@sha256:5ab77216e6bc8cbf2218b45543ec8963ad0544707560a17aa9f0702577eebbab
         name: my-nodejs
         resources: {}
 status: {}
